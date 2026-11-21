@@ -1,0 +1,137 @@
+name: "Traiter les données (Dealing with Data)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: password-simple-1
+    name: "Quel est le mot de passe ? (What's the password?)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-simple-1
+  - type: challenge
+    id: password-simple-2
+    name: "... et encore ! (... and again!)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-simple-2
+  - type: challenge
+    id: password-simple-nostrip
+    name: "Problèmes de saut de ligne (Newline Troubles)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-simple-nostrip
+  - type: challenge
+    id: password-from-file
+    name: "Raisonner sur les fichiers (Reasoning about files)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-from-file
+  - type: challenge
+    id: password-from-arg-file
+    name: "Spécifier des noms de fichiers (Specifying Filenames)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-from-arg-file
+  - type: challenge
+    id: password-hex-byte
+    name: "Encodage binaire et hexadécimal (Binary and Hex Encoding)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-byte
+  - type: challenge
+    id: password-hex-bytes
+    name: "Encore de l'hexadécimal (More Hex)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-bytes
+  - type: challenge
+    id: password-hex-decode
+    name: "Décoder l'hexadécimal (Decoding Hex)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-decode
+  - type: challenge
+    id: password-bin-decode
+    name: "Pratique du décodage (Decoding Practice)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-bin-decode
+  - type: challenge
+    id: password-bin-encode
+    name: "Pratique de l'encodage (Encoding Practice)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-bin-encode
+  - type: challenge
+    id: password-hex-ascii
+    name: "Encodage ASCII en hexadécimal (Hex-encoding ASCII)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-ascii
+  - type: challenge
+    id: password-hex-nested
+    name: "Encodages imbriqués (Nested Encoding)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-nested
+  - type: challenge
+    id: password-hex-unicode
+    name: "Encodage UTF-8 en hexadécimal (Hex-encoding UTF-8)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-unicode
+  - type: challenge
+    id: unicode-confusion
+    name: "Confusions UTF (UTF Mixups)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: unicode-confusion
+  - type: challenge
+    id: password-hex-reverse
+    name: "Modifier des données encodées (Modifying Encoded Data)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-hex-reverse
+  - type: challenge
+    id: password-b64-decode
+    name: "Décoder du Base64 (Decoding Base64)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-b64-decode
+  - type: challenge
+    id: password-b64-encode
+    name: "Encoder en Base64 (Encoding Base64)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-b64-encode
+  - type: challenge
+    id: password-obfuscate-1
+    name: "Gérer l'obfuscation (Dealing with Obfuscation)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-obfuscate-1
+  - type: challenge
+    id: password-obfuscate-2
+    name: "Gérer l'obfuscation, suite (Dealing with Obfuscation 2)"
+    import:
+      dojo: fundamentals
+      module: data-dealings
+      challenge: password-obfuscate-2

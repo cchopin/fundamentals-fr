@@ -1,0 +1,361 @@
+name: "Détourner les programmes (Program Misuse)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: cat
+    name: "Détourner cat (cat)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: cat
+  - type: challenge
+    id: more
+    name: "Détourner more (more)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: more
+  - type: challenge
+    id: less
+    name: "Détourner less (less)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: less
+  - type: challenge
+    id: tail
+    name: "Détourner tail (tail)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: tail
+  - type: challenge
+    id: head
+    name: "Détourner head (head)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: head
+  - type: challenge
+    id: sort
+    name: "Détourner sort (sort)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: sort
+  - type: challenge
+    id: vim
+    name: "Détourner vim (vim)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: vim
+  - type: challenge
+    id: emacs
+    name: "Détourner emacs (emacs)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: emacs
+  - type: challenge
+    id: nano
+    name: "Détourner nano (nano)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: nano
+  - type: challenge
+    id: rev
+    name: "Détourner rev (rev)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: rev
+  - type: challenge
+    id: od
+    name: "Détourner od (od)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: od
+  - type: challenge
+    id: hd
+    name: "Détourner hd (hd)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: hd
+  - type: challenge
+    id: xxd
+    name: "Détourner xxd (xxd)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: xxd
+  - type: challenge
+    id: base32
+    name: "Détourner base32 (base32)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: base32
+  - type: challenge
+    id: base64
+    name: "Détourner base64 (base64)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: base64
+  - type: challenge
+    id: split
+    name: "Détourner split (split)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: split
+  - type: challenge
+    id: gzip
+    name: "Détourner gzip (gzip)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: gzip
+  - type: challenge
+    id: bzip2
+    name: "Détourner bzip2 (bzip2)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: bzip2
+  - type: challenge
+    id: zip
+    name: "Détourner zip (zip)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: zip
+  - type: challenge
+    id: tar
+    name: "Détourner tar (tar)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: tar
+  - type: challenge
+    id: ar
+    name: "Détourner ar (ar)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: ar
+  - type: challenge
+    id: cpio
+    name: "Détourner cpio (cpio)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: cpio
+  - type: challenge
+    id: genisoimage
+    name: "Détourner genisoimage (genisoimage)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: genisoimage
+  - type: challenge
+    id: env
+    name: "Détourner env (env)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: env
+  - type: challenge
+    id: find
+    name: "Détourner find (find)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: find
+  - type: challenge
+    id: make
+    name: "Détourner make (make)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: make
+  - type: challenge
+    id: nice
+    name: "Détourner nice (nice)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: nice
+  - type: challenge
+    id: timeout
+    name: "Détourner timeout (timeout)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: timeout
+  - type: challenge
+    id: stdbuf
+    name: "Détourner stdbuf (stdbuf)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: stdbuf
+  - type: challenge
+    id: setarch
+    name: "Détourner setarch (setarch)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: setarch
+  - type: challenge
+    id: watch
+    name: "Détourner watch (watch)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: watch
+  - type: challenge
+    id: socat
+    name: "Détourner socat (socat)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: socat
+  - type: challenge
+    id: whiptail
+    name: "Détourner whiptail (whiptail)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: whiptail
+  - type: challenge
+    id: awk
+    name: "Détourner awk (awk)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: awk
+  - type: challenge
+    id: sed
+    name: "Détourner sed (sed)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: sed
+  - type: challenge
+    id: ed
+    name: "Détourner ed (ed)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: ed
+  - type: challenge
+    id: chown
+    name: "Détourner chown (chown)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: chown
+  - type: challenge
+    id: chmod
+    name: "Détourner chmod (chmod)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: chmod
+  - type: challenge
+    id: cp
+    name: "Détourner cp (cp)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: cp
+  - type: challenge
+    id: mv
+    name: "Détourner mv (mv)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: mv
+  - type: challenge
+    id: perl
+    name: "Détourner perl (perl)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: perl
+  - type: challenge
+    id: python
+    name: "Détourner python (python)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: python
+  - type: challenge
+    id: ruby
+    name: "Détourner ruby (ruby)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: ruby
+  - type: challenge
+    id: bash
+    name: "Détourner bash (bash)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: bash
+  - type: challenge
+    id: date
+    name: "Détourner date (date)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: date
+  - type: challenge
+    id: dmesg
+    name: "Détourner dmesg (dmesg)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: dmesg
+  - type: challenge
+    id: wc
+    name: "Détourner wc (wc)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: wc
+  - type: challenge
+    id: gcc
+    name: "Détourner gcc (gcc)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: gcc
+  - type: challenge
+    id: as
+    name: "Détourner as (as)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: as
+  - type: challenge
+    id: wget
+    name: "Détourner wget (wget)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: wget
+  - type: challenge
+    id: ssh-keygen
+    name: "Détourner ssh-keygen (ssh-keygen)"
+    import:
+      dojo: fundamentals
+      module: program-misuse
+      challenge: ssh-keygen

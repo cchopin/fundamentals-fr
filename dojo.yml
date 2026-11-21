@@ -1,0 +1,20 @@
+id: fundamentals-fr
+name: "Fundamentals (français)"
+type: hidden
+import:
+  dojo: fundamentals
+award:
+  emoji: 🧱
+modules:
+- id: data-dealings
+  import:
+    module: data-dealings
+- id: talking-web
+  import:
+    module: talking-web
+- id: program-misuse
+  import:
+    module: program-misuse
+- id: sql-playground
+  import:
+    module: sql-playground

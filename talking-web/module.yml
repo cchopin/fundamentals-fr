@@ -1,0 +1,256 @@
+name: "Le Web qui parle (Talking Web)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: http-browser
+    name: "Première requête HTTP (Your First HTTP Request)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-browser
+  - type: challenge
+    id: http-flask
+    name: "Lire Flask (Reading Flask)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-flask
+  - type: challenge
+    id: http-comment
+    name: "Données commentées (Commented Data)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-comment
+  - type: challenge
+    id: http-header
+    name: "Métadonnées HTTP (HTTP Metadata)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-header
+  - type: challenge
+    id: http-nc
+    name: "HTTP avec netcat (HTTP (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-nc
+  - type: challenge
+    id: http-path-nc
+    name: "Chemins HTTP avec netcat (HTTP Paths (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-path-nc
+  - type: challenge
+    id: http-path-curl
+    name: "HTTP avec curl (HTTP (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-path-curl
+  - type: challenge
+    id: http-path-python
+    name: "HTTP avec Python (HTTP (python))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-path-python
+  - type: challenge
+    id: http-host-python
+    name: "En-tête Host HTTP avec Python (HTTP Host Header (python))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-host-python
+  - type: challenge
+    id: http-host-curl
+    name: "En-tête Host HTTP avec curl (HTTP Host Header (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-host-curl
+  - type: challenge
+    id: http-host-nc
+    name: "En-tête Host HTTP avec netcat (HTTP Host Header (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-host-nc
+  - type: challenge
+    id: url-encoding-nc
+    name: "Encodage d'URL avec netcat (URL Encoding (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: url-encoding-nc
+  - type: challenge
+    id: http-get-parameters
+    name: "Paramètres GET HTTP (HTTP GET Parameters)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-get-parameters
+  - type: challenge
+    id: http-get-multiarg-nc
+    name: "Plusieurs paramètres HTTP avec netcat (Multiple HTTP Parameters (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-get-multiarg-nc
+  - type: challenge
+    id: http-get-multiarg-curl
+    name: "Plusieurs paramètres HTTP avec curl (Multiple HTTP Parameters (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-get-multiarg-curl
+  - type: challenge
+    id: http-form-browser
+    name: "Formulaires HTTP (HTTP Forms)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-browser
+  - type: challenge
+    id: http-form-curl
+    name: "Formulaires HTTP avec curl (HTTP Forms (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-curl
+  - type: challenge
+    id: http-form-nc
+    name: "Formulaires HTTP avec netcat (HTTP Forms (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-nc
+  - type: challenge
+    id: http-form-python
+    name: "Formulaires HTTP avec Python (HTTP Forms (python))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-python
+  - type: challenge
+    id: http-form-browser-noform
+    name: "Formulaires HTTP sans formulaire (HTTP Forms Without Forms)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-browser-noform
+  - type: challenge
+    id: http-form-multi-curl
+    name: "Plusieurs champs de formulaire avec curl (Multiple Form Fields (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-multi-curl
+  - type: challenge
+    id: http-form-multi-nc
+    name: "Plusieurs champs de formulaire avec netcat (Multiple Form Fields (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-form-multi-nc
+  - type: challenge
+    id: http-redirect-nc
+    name: "Redirections HTTP avec netcat (HTTP Redirects (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-redirect-nc
+  - type: challenge
+    id: http-redirect-curl
+    name: "Redirections HTTP avec curl (HTTP Redirects (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-redirect-curl
+  - type: challenge
+    id: http-redirect-python
+    name: "Redirections HTTP avec Python (HTTP Redirects (python))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-redirect-python
+  - type: challenge
+    id: http-cookies-curl
+    name: "Cookies HTTP avec curl (HTTP Cookies (curl))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-cookies-curl
+  - type: challenge
+    id: http-cookies-netcat
+    name: "Cookies HTTP avec netcat (HTTP Cookies (netcat))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-cookies-netcat
+  - type: challenge
+    id: http-cookies-python
+    name: "Cookies HTTP avec Python (HTTP Cookies (python))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-cookies-python
+  - type: challenge
+    id: http-multi-request-python
+    name: "État du serveur avec Python (Server State (python))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-multi-request-python
+  - type: challenge
+    id: http-server
+    name: "Serveur web à l'écoute (Listening Web)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server
+  - type: challenge
+    id: http-server-redirect
+    name: "Redirections côté serveur (Speaking Redirects)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server-redirect
+  - type: challenge
+    id: http-server-redirect-js
+    name: "Redirections en JavaScript (JavaScript Redirects)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server-redirect-js
+  - type: challenge
+    id: http-server-include-js
+    name: "Inclure du JavaScript (Including JavaScript)"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server-include-js
+  - type: challenge
+    id: http-server-fetch
+    name: "HTTP avec JavaScript (HTTP (javascript))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server-fetch
+  - type: challenge
+    id: http-server-fetch-params
+    name: "Paramètres GET HTTP avec JavaScript (HTTP Get Parameters (javascript))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server-fetch-params
+  - type: challenge
+    id: http-server-fetch-post
+    name: "Formulaires HTTP avec JavaScript (HTTP Forms (javascript))"
+    import:
+      dojo: fundamentals
+      module: talking-web
+      challenge: http-server-fetch-post

@@ -1,0 +1,74 @@
+name: "Terrain de jeu SQL (SQL Playground)"
+resources:
+  - type: header
+    content: "Défis"
+  - type: challenge
+    id: sql-query
+    name: "Requêtes SQL (SQL Queries)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-query
+  - type: challenge
+    id: sql-where
+    name: "Filtrer en SQL (Filtering SQL)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-where
+  - type: challenge
+    id: sql-where-one
+    name: "Choisir les colonnes (Choosing Columns)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-where-one
+  - type: challenge
+    id: sql-where-one-random
+    name: "Filtrage par exclusion (Exclusionary Filtering)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-where-one-random
+  - type: challenge
+    id: sql-where-one-string
+    name: "Filtrer des chaînes (Filtering Strings)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-where-one-string
+  - type: challenge
+    id: sql-where-substr
+    name: "Filtrer sur des expressions (Filtering on Expressions)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-where-substr
+  - type: challenge
+    id: sql-substr
+    name: "Sélectionner des expressions (SELECTing Expressions)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-substr
+  - type: challenge
+    id: sql-composite-conditions
+    name: "Conditions composées (Composite Conditions)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-composite-conditions
+  - type: challenge
+    id: sql-limit
+    name: "Atteindre les limites (Reaching Your LIMITs)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-limit
+  - type: challenge
+    id: sql-metadata
+    name: "Interroger les métadonnées (Querying Metadata)"
+    import:
+      dojo: fundamentals
+      module: sql-playground
+      challenge: sql-metadata
