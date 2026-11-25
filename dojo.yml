@@ -1,6 +1,6 @@
 id: fundamentals-fr
 name: "Fundamentals (français)"
-type: hidden
+type: public
 import:
   dojo: fundamentals
 award:
